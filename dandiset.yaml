@@ -15,14 +15,14 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
   - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
     schemaKey: MeasurementTechniqueType
   - name: two-photon microscopy technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 41711845366795
-  numberOfFiles: 2416
+  numberOfBytes: 41752255405679
+  numberOfFiles: 2417
   numberOfSubjects: 17
   schemaKey: AssetsSummary
   species:
@@ -30,10 +30,10 @@ assetsSummary:
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - PlaneSegmentation
   - ProcessingModule
-  - ImagingPlane
+  - PlaneSegmentation
   - OpticalChannel
+  - ImagingPlane
   - TwoPhotonSeries
 citation: Allen Institute Openscope - Dendritic Coupling project (2024). (Version
   draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
