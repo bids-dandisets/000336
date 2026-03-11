@@ -5,7 +5,8 @@
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.3/context.json
 about: []
 access:
-- schemaKey: AccessRequirements
+- embargoedUntil: '2028-03-10'
+  schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
 assetsSummary:
   approach:
@@ -36,8 +37,8 @@ assetsSummary:
   - OpticalChannel
   - PlaneSegmentation
   - TwoPhotonSeries
-citation: Allen Institute Openscope - Dendritic Coupling project (2024). (Version
-  draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+citation: Allen Institute Openscope - Dendritic Coupling project (2026). (Version
+  draft) [Data set]. DANDI Archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - awardNumber: 1 U24 NS 113646-02
   name: National Institutes of Health (NIH)
