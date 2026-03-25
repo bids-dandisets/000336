@@ -44,7 +44,7 @@ citation: Amaya, Avalon; Bawany, Ahad; Caldejon, Shiella; Grasso, Conor; Ha, Viv
   Nguyen, Katrina; Peene, R. Carter; Pina, Jason E.; Richards, Blake; Seid, Sam; Suarez,
   Lucas; Swapp, Jackie; Tindall, Josh; Waughman, Xana; Wilkes, Josh; Williford, Ali;
   Young, Ahrial; Zylberberg, Joel (2026) Allen Institute Openscope - Dendritic Coupling
-  project (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000336/draft
+  project (Version 0.260325.1802) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000336/0.260325.1802
 contributor:
 - awardNumber: 1 U24 NS 113646-02
   includeInCitation: false
@@ -243,6 +243,7 @@ contributor:
   - dcite:ProjectLeader
   schemaKey: Person
 dateCreated: '2022-09-15T19:12:49.103718+00:00'
+datePublished: '2026-03-25T18:02:59.215033+00:00'
 description: "This dataset was collected for the Dendritic Coupling project, as part
   of the Allen Institute's OpenScope project.\n\nPredictive coding hypotheses posit
   that perception is an active process whereby brain regions predict incoming sensory
@@ -273,13 +274,14 @@ description: "This dataset was collected for the Dendritic Coupling project, as 
   imaging of somata and dendrites, intrinsic signal imaging (ISI) mapping for area
   identification, eye tracking to monitor gaze and pupillary responses, and running
   wheel sensors to record locomotor activity during visual stimulation."
+doi: 10.48324/dandi.000336/0.260325.1802
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
     url: https://alleninstitute.org/
   identifier: 2117 (Allen Institute IACUC)
   schemaKey: EthicsApproval
-id: DANDI:000336/draft
+id: DANDI:000336/0.260325.1802
 identifier: DANDI:000336
 keywords:
 - 2-Photon Calcium Imaging
@@ -294,9 +296,21 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000336/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000336/0.260325.1802/assets.yaml
 name: Allen Institute Openscope - Dendritic Coupling project
 protocol: []
+publishedBy:
+  endDate: '2026-03-25T18:02:59.215033+00:00'
+  id: urn:uuid:21bd1d89-bf81-480a-9640-27c76c15235f
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-03-25T18:02:59.215033+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:9714774d-a10a-49fd-a44c-b9a5b1d0e44c
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - name: OpenScope Databook - Dendritic Coupling project documentation
   relation: dcite:IsDocumentedBy
@@ -345,6 +359,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000336/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000336/0.260325.1802
+version: 0.260325.1802
 wasGeneratedBy: []
